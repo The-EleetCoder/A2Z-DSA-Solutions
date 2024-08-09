@@ -5,6 +5,7 @@ STL has 4 components:
 |-|-|-|-|
 
 In this tutorial we will stick to some of the most popular STL containers and algorithms, and its useful functions which is used by programmers very frequently in day to day programming.
-Containers: The STL provides a range of containers, such as vector, list, map, set, and stack, which can be used to store and manipulate data.
-Algorithms: The STL provides a range of algorithms, such as sort, find, and binary_search, which can be used to manipulate data stored in containers.  
-Iterators: Iterators are objects that provide a way to traverse the elements of a container. The STL provides a range of iterators, such as forward_iterator, bidirectional_iterator, and random_access_iterator, that can be used with different types of containers.
+
+1. __Containers__: The STL provides a range of containers, such as vector, list, map, set, and stack, which can be used to store and manipulate data.  
+2. __Algorithms__: The STL provides a range of algorithms, such as sort, find, and binary_search, which can be used to manipulate data stored in containers.  
+3. __Iterators__: Iterators are objects that provide a way to traverse the elements of a container. The STL provides a range of iterators, such as forward_iterator, bidirectional_iterator, and random_access_iterator, that can be used with different types of containers.
