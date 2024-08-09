@@ -128,3 +128,127 @@ int main() {
     return 0;
 }
 ```
+### 5. Set
+A set is an ordered collection of unique elements, automatically sorted.
+```c++
+#include <iostream>
+#include <set>
+
+using namespace std;
+
+int main() {
+    set<int> s = {5, 1, 4, 2, 3};
+
+    // Adding elements
+    s.insert(6);
+    s.insert(4); // No effect as 4 is already present
+
+    // Iterating over elements (in sorted order)
+    cout << "Set elements: ";
+    for (int i : s) {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    // Removing elements
+    s.erase(3);
+
+    return 0;
+}
+```
+### 6. Unordered Set
+An unordered_set is a collection of unique elements, but with no particular order. It's implemented using a hash table.
+```c++
+#include <iostream>
+#include <unordered_set>
+
+using namespace std;
+
+int main() {
+    unordered_set<int> us = {5, 1, 4, 2, 3};
+
+    // Adding elements
+    us.insert(6);
+    us.insert(4); // No effect as 4 is already present
+
+    // Iterating over elements (order is not guaranteed)
+    cout << "Unordered set elements: ";
+    for (int i : us) {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    // Removing elements
+    us.erase(3);
+
+    return 0;
+}
+```
+### 7. Stack
+A stack is a Last In First Out (LIFO) data structure where elements are added and removed from the top.
+```c++
+#include <iostream>
+#include <stack>
+
+using namespace std;
+
+int main() {
+    stack<int> s;
+
+    // Pushing elements
+    s.push(1);
+    s.push(2);
+    s.push(3);
+
+    // Accessing the top element
+    cout << "Top element: " << s.top() << endl;
+
+    // Popping the top element
+    s.pop();
+    cout << "Top element after pop: " << s.top() << endl;
+
+    // Checking if stack is empty
+    if (s.empty()) {
+        cout << "Stack is empty." << endl;
+    } else {
+        cout << "Stack is not empty." << endl;
+    }
+
+    return 0;
+}
+```
+### 8. Queue
+A queue is a First In First Out (FIFO) data structure where elements are added at the back and removed from the front.
+```c++
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+int main() {
+    queue<int> q;
+
+    // Enqueue elements
+    q.push(1);
+    q.push(2);
+    q.push(3);
+
+    // Accessing the front and back elements
+    cout << "Front element: " << q.front() << endl;
+    cout << "Back element: " << q.back() << endl;
+
+    // Dequeue the front element
+    q.pop();
+    cout << "Front element after pop: " << q.front() << endl;
+
+    // Checking if queue is empty
+    if (q.empty()) {
+        cout << "Queue is empty." << endl;
+    } else {
+        cout << "Queue is not empty." << endl;
+    }
+
+    return 0;
+}
+
+```
