@@ -73,7 +73,7 @@ int main() {
 }
 ```
 ### 3. Map
-A map is an associative container that stores elements as key-value pairs.
+A map is an associative container that stores elements in key-value pairs, sorted by keys.
 ```c++
 #include <iostream>
 #include <map>
@@ -94,6 +94,34 @@ int main() {
     // Iterating over elements (in sorted order by keys)
     cout << "Map elements: " << endl;
     for (const auto& pair : m) {
+        cout << pair.first << ": " << pair.second << endl;
+    }
+
+    return 0;
+}
+```
+### 4. Unordered Map
+An unordered_map is an associative container that stores elements in key-value pairs, but without any specific order. It uses a hash table for fast access.
+```c++
+#include <iostream>
+#include <unordered_map>
+
+using namespace std;
+
+int main() {
+    unordered_map<string, int> um;
+
+    // Inserting elements
+    um["apple"] = 50;
+    um["banana"] = 30;
+    um["cherry"] = 20;
+
+    // Accessing elements
+    cout << "Price of apple: " << um["apple"] << endl;
+
+    // Iterating over elements (order is not guaranteed)
+    cout << "Unordered map elements: " << endl;
+    for (const auto& pair : um) {
         cout << pair.first << ": " << pair.second << endl;
     }
 

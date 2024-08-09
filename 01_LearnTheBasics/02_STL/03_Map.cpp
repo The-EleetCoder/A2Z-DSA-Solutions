@@ -1,5 +1,5 @@
 /*
-A map is an associative container that stores elements as key-value pairs.
+A map is an associative container that stores elements in key-value pairs, sorted by keys.
 */
 #include <iostream>
 #include <map>
