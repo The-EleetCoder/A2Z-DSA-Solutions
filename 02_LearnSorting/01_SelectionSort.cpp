@@ -2,27 +2,6 @@
 https://www.geeksforgeeks.org/problems/selection-sort/1
 */
 
-void selectionSort(int arr[], int n)
-{
-    for (int i = 0; i < n-1; i++)
-    {
-        // Find the minimum element in the unsorted portion of the array
-        int minIndex = i;
-        for (int j = i + 1; j < n; j++)
-        {
-            if (arr[j] < arr[minIndex])
-            {
-                minIndex = j;
-            }
-        }
-        // Swap the found minimum element with the first element of the unsorted portion
-        if (minIndex != i)
-        {
-            swap(arr[i], arr[minIndex]);
-        }
-    }
-}
-
 /*
 Steps for Selection Sort:
 
@@ -55,3 +34,24 @@ Space Complexity:
 O(1): The algorithm is in-place and does not require additional memory for another array.
 This method is simple but inefficient for large datasets. It is best used for small or nearly sorted arrays.
 */
+
+void selectionSort(int arr[], int n)
+{
+    for (int i = 0; i < n-1; i++)
+    {
+        // Find the minimum element in the unsorted portion of the array
+        int minIndex = i;
+        for (int j = i + 1; j < n; j++)
+        {
+            if (arr[j] < arr[minIndex])
+            {
+                minIndex = j;
+            }
+        }
+        // Swap the found minimum element with the first element of the unsorted portion
+        if (minIndex != i)
+        {
+            swap(arr[i], arr[minIndex]);
+        }
+    }
+}
