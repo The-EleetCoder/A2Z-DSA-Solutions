@@ -33,6 +33,35 @@ void insertionSort(int arr[], int n) {
     }
 }
 
+// recursive approach
+class Solution
+{
+    public:
+    void insert(int arr[], int i)
+    {
+        // Base case: stop recursion when i <= 0
+        if (i <= 0) {
+            return;
+        }
+        // If current element is smaller than the previous one, swap them
+        if (arr[i] < arr[i-1]) {
+            swap(arr[i], arr[i-1]);
+            // Recursively check and insert the previous elements in the correct position
+            insert(arr, i-1);
+        }
+    }
+    
+    public:
+    // Function to sort the array using insertion sort algorithm.
+    void insertionSort(int arr[], int n)
+    {
+        for (int i = 1; i < n; i++) {
+            // Insert the element at index i in its correct position
+            insert(arr, i);
+        }
+    }
+};
+
 /*
 Steps for Insertion Sort:
 

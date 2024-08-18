@@ -59,3 +59,22 @@ public:
         }
     }
 };
+
+// recursive way 
+void bubble_sort(int arr[], int n) {
+    // Base Case: range == 1.
+    if (n == 1) return;
+
+    int didSwap = 0;
+    for (int j = 0; j < n - 1; j++) {
+        if (arr[j] > arr[j + 1]) {
+          swap(arr[j],arr[j+1]);
+          didSwap = 1;
+        }
+    }
+
+    if (didSwap==0) return;
+
+    //Range reduced after recursion:
+    bubble_sort(arr, n - 1);
+}
