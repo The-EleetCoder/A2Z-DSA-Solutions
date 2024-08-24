@@ -1,7 +1,6 @@
-﻿# A2Z-DSA-Solutions
-
-A2Z DSA Solutions archive.
-___
+<h1 align="center">
+ A2Z-DSA-Solutions
+</h1>
 
 ## Problems Solved
 |No.|Title|Problem Statement|Solution|
