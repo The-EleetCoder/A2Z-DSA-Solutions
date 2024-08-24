@@ -31,3 +31,6 @@
 |24.| Single Number | https://leetcode.com/problems/single-number/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/01_EasyProblems/11_SingleNumber.cpp)
 |25.| Longest Subarray With Sum K (positive + negative) | https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1 | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/01_EasyProblems/12_LongestSubarrayWithSumK(positive%2Bnegative).cpp)
 |26.| Longest Subarray With Sum K (positive) | https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399 | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/01_EasyProblems/13_LongestSubarrayWithSumK(positives).cpp)
+|27.| Two Sum | https://leetcode.com/problems/two-sum/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/01_2Sum.cpp)
+|28.| Sort Colors | https://leetcode.com/problems/sort-colors/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/02_SortColors.cpp)
+|29.| Majority Element | https://leetcode.com/problems/majority-element/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/03_MajorityElement.cpp)
