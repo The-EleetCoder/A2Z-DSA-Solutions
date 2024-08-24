@@ -24,7 +24,14 @@ class Solution{
     }
 };
 
-// Approach 2 ( modifying the original array TC - O(N) & SC - O(1))
+
+/*
+Approach 2 ( modifying the original array TC - O(N) & SC - O(1))
+
+Key Intuition:
+The core idea is to use the array indices themselves as a way to store the frequency of the elements. By marking elements as negative, you effectively "count" them without needing additional space.
+This in-place counting approach ensures that the algorithm runs in O(N) time with O(1) extra space, making it efficient.
+*/
 class Solution {
   public:
     // Function to count the frequency of all elements from 1 to N in the array.
