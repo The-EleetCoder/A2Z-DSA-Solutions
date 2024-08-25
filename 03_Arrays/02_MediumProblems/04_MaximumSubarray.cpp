@@ -8,13 +8,23 @@ This solution is an implementation of Kadane's Algorithm, which is used to find 
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        // Initialize max_sum with the first element of the array. This is the best result we have so far
+        /*
+        Initialize max_sum with the first element of the array.
+        This is the best result we have so far
+        */
         int max_sum = nums[0];
-        // Initialize current_sum with the first element of the array. This keeps track of the sum of the current subarray
+
+        /*
+        Initialize current_sum with the first element of the array.
+        This keeps track of the sum of the current subarray
+        */
         int current_sum = nums[0];
 
         for(int i = 1; i < nums.size(); i++) {
-            // If current_sum is negative and the current element is greater than current_sum, it's better to start a new subarray with nums[i]
+            /*
+            If current_sum is negative and the current element is greater than current_sum, 
+            it's better to start a new subarray with nums[i]
+            */
             if(current_sum < 0 && current_sum < nums[i]) {
                 current_sum = nums[i];
             } 
@@ -48,7 +58,10 @@ public:
         int current_sum = nums[0];
         
         for(int i = 1; i < nums.size(); i++) {
-            // If adding the current element to current_sum is worse than starting fresh, start fresh with the current element
+            /*
+            If adding the current element to current_sum is worse than starting fresh,
+            start fresh with the current element
+            */
             current_sum = max(nums[i], current_sum + nums[i]);
             // Update max_sum to be the largest sum we've seen
             max_sum = max(max_sum, current_sum);
