@@ -37,7 +37,6 @@ public:
             if (current_sum >= max_sum) {
                 max_sum = current_sum;
             } 
-            // If neither condition is true, continue to the next iteration
             else {
                 continue;
             }
