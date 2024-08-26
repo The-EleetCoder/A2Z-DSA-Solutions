@@ -34,3 +34,7 @@
 |27.| Two Sum | https://leetcode.com/problems/two-sum/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/01_2Sum.cpp)
 |28.| Sort Colors | https://leetcode.com/problems/sort-colors/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/02_SortColors.cpp)
 |29.| Majority Element | https://leetcode.com/problems/majority-element/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/03_MajorityElement.cpp)
+|30.| Maximum Subarray | https://leetcode.com/problems/maximum-subarray/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/04_MaximumSubarray.cpp)
+|31.| Maximum Score From Subarray Minimums | https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/0 | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/05_MaximumScoreFromSubarrayMinimums.cpp)
+|32.| Best Time To Buy And Sell Stock | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/06_BestTimeToBuyAndSellStock.cpp)
+|33.| Rearrange Array Elements By Sign | https://leetcode.com/problems/rearrange-array-elements-by-sign/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/07_RearrangeArrayElementsBySign.cpp)
