@@ -42,3 +42,6 @@
 |35.| Leaders In An Array | https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1 | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/09_LeadersInAnArray.cpp)
 |36.| Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/10_LongestConsecutiveSequence.cpp)
 |37.| Subarray Sum Equals K | https://leetcode.com/problems/subarray-sum-equals-k/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/11_SubarraySumEqualsK.cpp)
+|38.| Set Matrix Zeros | https://leetcode.com/problems/set-matrix-zeroes/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/12_SetMatrixZeros.cpp)
+|39.| Rotate Image | https://leetcode.com/problems/rotate-image/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/13_RotateImage.cpp)
+|40.| Spiral Matrix | https://leetcode.com/problems/spiral-matrix/ | [C++](https://github.com/The-EleetCoder/A2Z-DSA-Solutions/blob/main/03_Arrays/02_MediumProblems/14_SpiralMatrix.cpp)
